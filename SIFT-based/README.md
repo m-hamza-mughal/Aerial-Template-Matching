@@ -9,7 +9,7 @@ You can see the information using following command in terminal.
 ```
 gdalinfo 1.tif
 ```
-## Result:
-The GPS coordinates of blue dot on main image are shown on left bottom corner.
 
-![alt text](http://url/to/img.png)
+The GPS coordinates of blue dot on main image are shown on left bottom corner of output frame.
+
+
