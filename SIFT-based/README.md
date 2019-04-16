@@ -13,10 +13,16 @@ gdalinfo 1.tif
 The GPS coordinates of blue dot on main image are shown on left bottom corner of output frame.
 
 ## Requirements:
+
 Numpy
+
 OpenCV-Python 3.4.2.16
+
 OpenCV-Contrib-Python 3.4.2.16
+
 GDAL
+
 Scipy
+
 Matplotlib
 
