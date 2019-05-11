@@ -8,7 +8,7 @@ This algorithm is implemented using SIFT[1] descriptors.
 The GPS coordinates are also extracted using GDAL functions. 
 
 ## Deep Learning based technique
-This algorithm is currently under development. It utilizes Neighbourhood Consensus Networks[2] presented in NeurIPS 2018 to extract point to point correspondances between two images.
+This algorithm utilizes Neighbourhood Consensus Networks[2] presented in NeurIPS 2018 to extract point to point correspondances between two images. The correspondances are then used to match the template using Homography and RANSAC. The GPS coordinates are then extracted.
 
 ## References:
 [1] David G Lowe, “Distinctive Image Features from Scale-Invariant Keypoints,” 
