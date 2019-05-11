@@ -318,7 +318,6 @@ class ImMatchNet(nn.Module):
             t = feature_B[:, :, a1[0, i, 1].type(torch.cuda.ByteTensor).item(), a1[0, i, 0].type(torch.cuda.ByteTensor).item()]
             u = A_vec[:,:,i]
             #sum(a * b) / sqrt(sum(a ^ 2) * sum(b ^ 2))
-            nigg = torch.sum(torch.pow(t, 2), dim=1)
             multi = torch.sum(torch.mul(t, u), dim=1)
             sum1 = torch.sum(torch.pow(t, 2), dim=1)
             sum2 = torch.sum(torch.pow(u, 2), dim=1)
