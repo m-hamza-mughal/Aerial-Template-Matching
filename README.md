@@ -5,7 +5,7 @@ This project focuses on development of an algorithm for Template Matching on aer
 This project primarily focuses on the problem of Vision-based Localization of Unmanned Aerial Vehicles.
 
 <p align="center">
-  <img width="600" height="338" src="https://github.com/m-hamza-mughal/Aerial-Template-Matching/blob/master/SIFT-based/output_compressed.gif">
+  <img width="600" height="338" src="SIFT-based/output_compressed.gif">
 </p>
 
 ## Classical Computer Vision based algorithm
