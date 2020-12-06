@@ -4,6 +4,8 @@ Implementation code for the paper.
 This project focuses on development of an algorithm for Template Matching on aerial imagery by implementing classical Computer Vision based techniques and deep-learning based techniques. This template matching technique is applied to extract GPS coordinates of the localized template image from the main image. 
 This project primarily focuses on the problem of Vision-based Localization of Unmanned Aerial Vehicles.
 
+DATASET [2020-12-06]: The dataset for this research has been open-sourced at the [this link](https://github.com/m-hamza-mughal/aerial-template-matching-dataset)
+
 <p align="center">
   <img width="600" height="338" src="SIFT-based/output_compressed.gif">
 </p>
