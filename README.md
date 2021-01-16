@@ -1,4 +1,4 @@
-# Deep Contextual Matching Based UAV Localization Using Semi-Local Constraints
+# Assisting UAV Localization via Deep Contextual Image Matching
 
 Implementation code for the paper.
 This project focuses on development of an algorithm for Template Matching on aerial imagery by implementing classical Computer Vision based techniques and deep-learning based techniques. This template matching technique is applied to extract GPS coordinates of the localized template image from the main image. 
